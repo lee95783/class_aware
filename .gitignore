@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distributions
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Patent (private)
+patent_cn/
+
+# Project Specific
+data/
+weights/
+results/
+experiments/
+predictions.csv
+
+# Checkpoints and logs
+*.pth
+*.pt
+*.ckpt
+*.log
+*.out
+nohup.out
+wandb/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+run_in_env.sh
+*.txt
+error.log
