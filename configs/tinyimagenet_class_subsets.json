@@ -1,0 +1,1295 @@
+{
+  "dataset": "tinyimagenet",
+  "num_total_classes": 200,
+  "all_classes": [
+    {
+      "index": 0,
+      "wnid": "n01443537",
+      "name": "goldfish"
+    },
+    {
+      "index": 1,
+      "wnid": "n01629819",
+      "name": "European fire salamander"
+    },
+    {
+      "index": 2,
+      "wnid": "n01641577",
+      "name": "bullfrog"
+    },
+    {
+      "index": 3,
+      "wnid": "n01644900",
+      "name": "tailed frog"
+    },
+    {
+      "index": 4,
+      "wnid": "n01698640",
+      "name": "American alligator"
+    },
+    {
+      "index": 5,
+      "wnid": "n01742172",
+      "name": "boa constrictor"
+    },
+    {
+      "index": 6,
+      "wnid": "n01768244",
+      "name": "trilobite"
+    },
+    {
+      "index": 7,
+      "wnid": "n01770393",
+      "name": "scorpion"
+    },
+    {
+      "index": 8,
+      "wnid": "n01774384",
+      "name": "black widow"
+    },
+    {
+      "index": 9,
+      "wnid": "n01774750",
+      "name": "tarantula"
+    },
+    {
+      "index": 10,
+      "wnid": "n01784675",
+      "name": "centipede"
+    },
+    {
+      "index": 11,
+      "wnid": "n01855672",
+      "name": "goose"
+    },
+    {
+      "index": 12,
+      "wnid": "n01882714",
+      "name": "koala"
+    },
+    {
+      "index": 13,
+      "wnid": "n01910747",
+      "name": "jellyfish"
+    },
+    {
+      "index": 14,
+      "wnid": "n01917289",
+      "name": "brain coral"
+    },
+    {
+      "index": 15,
+      "wnid": "n01944390",
+      "name": "snail"
+    },
+    {
+      "index": 16,
+      "wnid": "n01945685",
+      "name": "slug"
+    },
+    {
+      "index": 17,
+      "wnid": "n01950731",
+      "name": "sea slug"
+    },
+    {
+      "index": 18,
+      "wnid": "n01983481",
+      "name": "American lobster"
+    },
+    {
+      "index": 19,
+      "wnid": "n01984695",
+      "name": "spiny lobster"
+    },
+    {
+      "index": 20,
+      "wnid": "n02002724",
+      "name": "black stork"
+    },
+    {
+      "index": 21,
+      "wnid": "n02056570",
+      "name": "king penguin"
+    },
+    {
+      "index": 22,
+      "wnid": "n02058221",
+      "name": "albatross"
+    },
+    {
+      "index": 23,
+      "wnid": "n02074367",
+      "name": "dugong"
+    },
+    {
+      "index": 24,
+      "wnid": "n02085620",
+      "name": "Chihuahua"
+    },
+    {
+      "index": 25,
+      "wnid": "n02094433",
+      "name": "Yorkshire terrier"
+    },
+    {
+      "index": 26,
+      "wnid": "n02099601",
+      "name": "golden retriever"
+    },
+    {
+      "index": 27,
+      "wnid": "n02099712",
+      "name": "Labrador retriever"
+    },
+    {
+      "index": 28,
+      "wnid": "n02106662",
+      "name": "German shepherd"
+    },
+    {
+      "index": 29,
+      "wnid": "n02113799",
+      "name": "standard poodle"
+    },
+    {
+      "index": 30,
+      "wnid": "n02123045",
+      "name": "tabby"
+    },
+    {
+      "index": 31,
+      "wnid": "n02123394",
+      "name": "Persian cat"
+    },
+    {
+      "index": 32,
+      "wnid": "n02124075",
+      "name": "Egyptian cat"
+    },
+    {
+      "index": 33,
+      "wnid": "n02125311",
+      "name": "cougar"
+    },
+    {
+      "index": 34,
+      "wnid": "n02129165",
+      "name": "lion"
+    },
+    {
+      "index": 35,
+      "wnid": "n02132136",
+      "name": "brown bear"
+    },
+    {
+      "index": 36,
+      "wnid": "n02165456",
+      "name": "ladybug"
+    },
+    {
+      "index": 37,
+      "wnid": "n02190166",
+      "name": "fly"
+    },
+    {
+      "index": 38,
+      "wnid": "n02206856",
+      "name": "bee"
+    },
+    {
+      "index": 39,
+      "wnid": "n02226429",
+      "name": "grasshopper"
+    },
+    {
+      "index": 40,
+      "wnid": "n02231487",
+      "name": "walking stick"
+    },
+    {
+      "index": 41,
+      "wnid": "n02233338",
+      "name": "cockroach"
+    },
+    {
+      "index": 42,
+      "wnid": "n02236044",
+      "name": "mantis"
+    },
+    {
+      "index": 43,
+      "wnid": "n02268443",
+      "name": "dragonfly"
+    },
+    {
+      "index": 44,
+      "wnid": "n02279972",
+      "name": "monarch"
+    },
+    {
+      "index": 45,
+      "wnid": "n02281406",
+      "name": "sulphur butterfly"
+    },
+    {
+      "index": 46,
+      "wnid": "n02321529",
+      "name": "sea cucumber"
+    },
+    {
+      "index": 47,
+      "wnid": "n02364673",
+      "name": "guinea pig"
+    },
+    {
+      "index": 48,
+      "wnid": "n02395406",
+      "name": "hog"
+    },
+    {
+      "index": 49,
+      "wnid": "n02403003",
+      "name": "ox"
+    },
+    {
+      "index": 50,
+      "wnid": "n02410509",
+      "name": "bison"
+    },
+    {
+      "index": 51,
+      "wnid": "n02415577",
+      "name": "bighorn"
+    },
+    {
+      "index": 52,
+      "wnid": "n02423022",
+      "name": "gazelle"
+    },
+    {
+      "index": 53,
+      "wnid": "n02437312",
+      "name": "Arabian camel"
+    },
+    {
+      "index": 54,
+      "wnid": "n02480495",
+      "name": "orangutan"
+    },
+    {
+      "index": 55,
+      "wnid": "n02481823",
+      "name": "chimpanzee"
+    },
+    {
+      "index": 56,
+      "wnid": "n02486410",
+      "name": "baboon"
+    },
+    {
+      "index": 57,
+      "wnid": "n02504458",
+      "name": "African elephant"
+    },
+    {
+      "index": 58,
+      "wnid": "n02509815",
+      "name": "lesser panda"
+    },
+    {
+      "index": 59,
+      "wnid": "n02666196",
+      "name": "abacus"
+    },
+    {
+      "index": 60,
+      "wnid": "n02669723",
+      "name": "academic gown"
+    },
+    {
+      "index": 61,
+      "wnid": "n02699494",
+      "name": "altar"
+    },
+    {
+      "index": 62,
+      "wnid": "n02730930",
+      "name": "apron"
+    },
+    {
+      "index": 63,
+      "wnid": "n02769748",
+      "name": "backpack"
+    },
+    {
+      "index": 64,
+      "wnid": "n02788148",
+      "name": "bannister"
+    },
+    {
+      "index": 65,
+      "wnid": "n02791270",
+      "name": "barbershop"
+    },
+    {
+      "index": 66,
+      "wnid": "n02793495",
+      "name": "barn"
+    },
+    {
+      "index": 67,
+      "wnid": "n02795169",
+      "name": "barrel"
+    },
+    {
+      "index": 68,
+      "wnid": "n02802426",
+      "name": "basketball"
+    },
+    {
+      "index": 69,
+      "wnid": "n02808440",
+      "name": "bathtub"
+    },
+    {
+      "index": 70,
+      "wnid": "n02814533",
+      "name": "beach wagon"
+    },
+    {
+      "index": 71,
+      "wnid": "n02814860",
+      "name": "beacon"
+    },
+    {
+      "index": 72,
+      "wnid": "n02815834",
+      "name": "beaker"
+    },
+    {
+      "index": 73,
+      "wnid": "n02823428",
+      "name": "beer bottle"
+    },
+    {
+      "index": 74,
+      "wnid": "n02837789",
+      "name": "bikini"
+    },
+    {
+      "index": 75,
+      "wnid": "n02841315",
+      "name": "binoculars"
+    },
+    {
+      "index": 76,
+      "wnid": "n02843684",
+      "name": "birdhouse"
+    },
+    {
+      "index": 77,
+      "wnid": "n02883205",
+      "name": "bow tie"
+    },
+    {
+      "index": 78,
+      "wnid": "n02892201",
+      "name": "brass"
+    },
+    {
+      "index": 79,
+      "wnid": "n02906734",
+      "name": "broom"
+    },
+    {
+      "index": 80,
+      "wnid": "n02909870",
+      "name": "bucket"
+    },
+    {
+      "index": 81,
+      "wnid": "n02917067",
+      "name": "bullet train"
+    },
+    {
+      "index": 82,
+      "wnid": "n02927161",
+      "name": "butcher shop"
+    },
+    {
+      "index": 83,
+      "wnid": "n02948072",
+      "name": "candle"
+    },
+    {
+      "index": 84,
+      "wnid": "n02950826",
+      "name": "cannon"
+    },
+    {
+      "index": 85,
+      "wnid": "n02963159",
+      "name": "cardigan"
+    },
+    {
+      "index": 86,
+      "wnid": "n02977058",
+      "name": "cash machine"
+    },
+    {
+      "index": 87,
+      "wnid": "n02988304",
+      "name": "CD player"
+    },
+    {
+      "index": 88,
+      "wnid": "n02999410",
+      "name": "chain"
+    },
+    {
+      "index": 89,
+      "wnid": "n03014705",
+      "name": "chest"
+    },
+    {
+      "index": 90,
+      "wnid": "n03026506",
+      "name": "Christmas stocking"
+    },
+    {
+      "index": 91,
+      "wnid": "n03042490",
+      "name": "cliff dwelling"
+    },
+    {
+      "index": 92,
+      "wnid": "n03085013",
+      "name": "computer keyboard"
+    },
+    {
+      "index": 93,
+      "wnid": "n03089624",
+      "name": "confectionery"
+    },
+    {
+      "index": 94,
+      "wnid": "n03100240",
+      "name": "convertible"
+    },
+    {
+      "index": 95,
+      "wnid": "n03126707",
+      "name": "crane"
+    },
+    {
+      "index": 96,
+      "wnid": "n03160309",
+      "name": "dam"
+    },
+    {
+      "index": 97,
+      "wnid": "n03179701",
+      "name": "desk"
+    },
+    {
+      "index": 98,
+      "wnid": "n03201208",
+      "name": "dining table"
+    },
+    {
+      "index": 99,
+      "wnid": "n03250847",
+      "name": "drumstick"
+    },
+    {
+      "index": 100,
+      "wnid": "n03255030",
+      "name": "dumbbell"
+    },
+    {
+      "index": 101,
+      "wnid": "n03355925",
+      "name": "flagpole"
+    },
+    {
+      "index": 102,
+      "wnid": "n03388043",
+      "name": "fountain"
+    },
+    {
+      "index": 103,
+      "wnid": "n03393912",
+      "name": "freight car"
+    },
+    {
+      "index": 104,
+      "wnid": "n03400231",
+      "name": "frying pan"
+    },
+    {
+      "index": 105,
+      "wnid": "n03404251",
+      "name": "fur coat"
+    },
+    {
+      "index": 106,
+      "wnid": "n03424325",
+      "name": "gasmask"
+    },
+    {
+      "index": 107,
+      "wnid": "n03444034",
+      "name": "go-kart"
+    },
+    {
+      "index": 108,
+      "wnid": "n03447447",
+      "name": "gondola"
+    },
+    {
+      "index": 109,
+      "wnid": "n03544143",
+      "name": "hourglass"
+    },
+    {
+      "index": 110,
+      "wnid": "n03584254",
+      "name": "iPod"
+    },
+    {
+      "index": 111,
+      "wnid": "n03599486",
+      "name": "jinrikisha"
+    },
+    {
+      "index": 112,
+      "wnid": "n03617480",
+      "name": "kimono"
+    },
+    {
+      "index": 113,
+      "wnid": "n03637318",
+      "name": "lampshade"
+    },
+    {
+      "index": 114,
+      "wnid": "n03649909",
+      "name": "lawn mower"
+    },
+    {
+      "index": 115,
+      "wnid": "n03662601",
+      "name": "lifeboat"
+    },
+    {
+      "index": 116,
+      "wnid": "n03670208",
+      "name": "limousine"
+    },
+    {
+      "index": 117,
+      "wnid": "n03706229",
+      "name": "magnetic compass"
+    },
+    {
+      "index": 118,
+      "wnid": "n03733131",
+      "name": "maypole"
+    },
+    {
+      "index": 119,
+      "wnid": "n03763968",
+      "name": "military uniform"
+    },
+    {
+      "index": 120,
+      "wnid": "n03770439",
+      "name": "miniskirt"
+    },
+    {
+      "index": 121,
+      "wnid": "n03796401",
+      "name": "moving van"
+    },
+    {
+      "index": 122,
+      "wnid": "n03804744",
+      "name": "nail"
+    },
+    {
+      "index": 123,
+      "wnid": "n03814639",
+      "name": "neck brace"
+    },
+    {
+      "index": 124,
+      "wnid": "n03837869",
+      "name": "obelisk"
+    },
+    {
+      "index": 125,
+      "wnid": "n03838899",
+      "name": "oboe"
+    },
+    {
+      "index": 126,
+      "wnid": "n03854065",
+      "name": "organ"
+    },
+    {
+      "index": 127,
+      "wnid": "n03891332",
+      "name": "parking meter"
+    },
+    {
+      "index": 128,
+      "wnid": "n03902125",
+      "name": "pay-phone"
+    },
+    {
+      "index": 129,
+      "wnid": "n03930313",
+      "name": "picket fence"
+    },
+    {
+      "index": 130,
+      "wnid": "n03937543",
+      "name": "pill bottle"
+    },
+    {
+      "index": 131,
+      "wnid": "n03970156",
+      "name": "plunger"
+    },
+    {
+      "index": 132,
+      "wnid": "n03976657",
+      "name": "pole"
+    },
+    {
+      "index": 133,
+      "wnid": "n03977966",
+      "name": "police van"
+    },
+    {
+      "index": 134,
+      "wnid": "n03980874",
+      "name": "poncho"
+    },
+    {
+      "index": 135,
+      "wnid": "n03983396",
+      "name": "pop bottle"
+    },
+    {
+      "index": 136,
+      "wnid": "n03992509",
+      "name": "potter's wheel"
+    },
+    {
+      "index": 137,
+      "wnid": "n04008634",
+      "name": "projectile"
+    },
+    {
+      "index": 138,
+      "wnid": "n04023962",
+      "name": "punching bag"
+    },
+    {
+      "index": 139,
+      "wnid": "n04067472",
+      "name": "reel"
+    },
+    {
+      "index": 140,
+      "wnid": "n04070727",
+      "name": "refrigerator"
+    },
+    {
+      "index": 141,
+      "wnid": "n04074963",
+      "name": "remote control"
+    },
+    {
+      "index": 142,
+      "wnid": "n04099969",
+      "name": "rocking chair"
+    },
+    {
+      "index": 143,
+      "wnid": "n04118538",
+      "name": "rugby ball"
+    },
+    {
+      "index": 144,
+      "wnid": "n04133789",
+      "name": "sandal"
+    },
+    {
+      "index": 145,
+      "wnid": "n04146614",
+      "name": "school bus"
+    },
+    {
+      "index": 146,
+      "wnid": "n04149813",
+      "name": "scoreboard"
+    },
+    {
+      "index": 147,
+      "wnid": "n04179913",
+      "name": "sewing machine"
+    },
+    {
+      "index": 148,
+      "wnid": "n04251144",
+      "name": "snorkel"
+    },
+    {
+      "index": 149,
+      "wnid": "n04254777",
+      "name": "sock"
+    },
+    {
+      "index": 150,
+      "wnid": "n04259630",
+      "name": "sombrero"
+    },
+    {
+      "index": 151,
+      "wnid": "n04265275",
+      "name": "space heater"
+    },
+    {
+      "index": 152,
+      "wnid": "n04275548",
+      "name": "spider web"
+    },
+    {
+      "index": 153,
+      "wnid": "n04285008",
+      "name": "sports car"
+    },
+    {
+      "index": 154,
+      "wnid": "n04311004",
+      "name": "steel arch bridge"
+    },
+    {
+      "index": 155,
+      "wnid": "n04328186",
+      "name": "stopwatch"
+    },
+    {
+      "index": 156,
+      "wnid": "n04356056",
+      "name": "sunglasses"
+    },
+    {
+      "index": 157,
+      "wnid": "n04366367",
+      "name": "suspension bridge"
+    },
+    {
+      "index": 158,
+      "wnid": "n04371430",
+      "name": "swimming trunks"
+    },
+    {
+      "index": 159,
+      "wnid": "n04376876",
+      "name": "syringe"
+    },
+    {
+      "index": 160,
+      "wnid": "n04398044",
+      "name": "teapot"
+    },
+    {
+      "index": 161,
+      "wnid": "n04399382",
+      "name": "teddy"
+    },
+    {
+      "index": 162,
+      "wnid": "n04417672",
+      "name": "thatch"
+    },
+    {
+      "index": 163,
+      "wnid": "n04456115",
+      "name": "torch"
+    },
+    {
+      "index": 164,
+      "wnid": "n04465501",
+      "name": "tractor"
+    },
+    {
+      "index": 165,
+      "wnid": "n04486054",
+      "name": "triumphal arch"
+    },
+    {
+      "index": 166,
+      "wnid": "n04487081",
+      "name": "trolleybus"
+    },
+    {
+      "index": 167,
+      "wnid": "n04501370",
+      "name": "turnstile"
+    },
+    {
+      "index": 168,
+      "wnid": "n04507155",
+      "name": "umbrella"
+    },
+    {
+      "index": 169,
+      "wnid": "n04532106",
+      "name": "vestment"
+    },
+    {
+      "index": 170,
+      "wnid": "n04532670",
+      "name": "viaduct"
+    },
+    {
+      "index": 171,
+      "wnid": "n04540053",
+      "name": "volleyball"
+    },
+    {
+      "index": 172,
+      "wnid": "n04560804",
+      "name": "water jug"
+    },
+    {
+      "index": 173,
+      "wnid": "n04562935",
+      "name": "water tower"
+    },
+    {
+      "index": 174,
+      "wnid": "n04596742",
+      "name": "wok"
+    },
+    {
+      "index": 175,
+      "wnid": "n04597913",
+      "name": "wooden spoon"
+    },
+    {
+      "index": 176,
+      "wnid": "n06596364",
+      "name": "comic book"
+    },
+    {
+      "index": 177,
+      "wnid": "n07579787",
+      "name": "plate"
+    },
+    {
+      "index": 178,
+      "wnid": "n07583066",
+      "name": "guacamole"
+    },
+    {
+      "index": 179,
+      "wnid": "n07614500",
+      "name": "ice cream"
+    },
+    {
+      "index": 180,
+      "wnid": "n07615774",
+      "name": "ice lolly"
+    },
+    {
+      "index": 181,
+      "wnid": "n07695742",
+      "name": "pretzel"
+    },
+    {
+      "index": 182,
+      "wnid": "n07711569",
+      "name": "mashed potato"
+    },
+    {
+      "index": 183,
+      "wnid": "n07715103",
+      "name": "cauliflower"
+    },
+    {
+      "index": 184,
+      "wnid": "n07720875",
+      "name": "bell pepper"
+    },
+    {
+      "index": 185,
+      "wnid": "n07734744",
+      "name": "mushroom"
+    },
+    {
+      "index": 186,
+      "wnid": "n07747607",
+      "name": "orange"
+    },
+    {
+      "index": 187,
+      "wnid": "n07749582",
+      "name": "lemon"
+    },
+    {
+      "index": 188,
+      "wnid": "n07753592",
+      "name": "banana"
+    },
+    {
+      "index": 189,
+      "wnid": "n07768694",
+      "name": "pomegranate"
+    },
+    {
+      "index": 190,
+      "wnid": "n07871810",
+      "name": "meat loaf"
+    },
+    {
+      "index": 191,
+      "wnid": "n07873807",
+      "name": "pizza"
+    },
+    {
+      "index": 192,
+      "wnid": "n07875152",
+      "name": "potpie"
+    },
+    {
+      "index": 193,
+      "wnid": "n07920052",
+      "name": "espresso"
+    },
+    {
+      "index": 194,
+      "wnid": "n09193705",
+      "name": "alp"
+    },
+    {
+      "index": 195,
+      "wnid": "n09246464",
+      "name": "cliff"
+    },
+    {
+      "index": 196,
+      "wnid": "n09256479",
+      "name": "coral reef"
+    },
+    {
+      "index": 197,
+      "wnid": "n09332890",
+      "name": "lakeside"
+    },
+    {
+      "index": 198,
+      "wnid": "n09428293",
+      "name": "seashore"
+    },
+    {
+      "index": 199,
+      "wnid": "n12267677",
+      "name": "acorn"
+    }
+  ],
+  "subsets": {
+    "5": {
+      "class_indices": [
+        152,
+        26,
+        115,
+        46,
+        38
+      ],
+      "class_names": [
+        "spider web",
+        "golden retriever",
+        "lifeboat",
+        "sea cucumber",
+        "bee"
+      ],
+      "wnids": [
+        "n04275548",
+        "n02099601",
+        "n03662601",
+        "n02321529",
+        "n02206856"
+      ]
+    },
+    "10": {
+      "class_indices": [
+        152,
+        26,
+        115,
+        46,
+        38,
+        7,
+        79,
+        171,
+        148,
+        56
+      ],
+      "class_names": [
+        "spider web",
+        "golden retriever",
+        "lifeboat",
+        "sea cucumber",
+        "bee",
+        "scorpion",
+        "broom",
+        "volleyball",
+        "snorkel",
+        "baboon"
+      ],
+      "wnids": [
+        "n04275548",
+        "n02099601",
+        "n03662601",
+        "n02321529",
+        "n02206856",
+        "n01770393",
+        "n02906734",
+        "n04540053",
+        "n04251144",
+        "n02486410"
+      ]
+    },
+    "20": {
+      "class_indices": [
+        152,
+        26,
+        115,
+        46,
+        38,
+        7,
+        79,
+        171,
+        148,
+        56,
+        20,
+        178,
+        106,
+        24,
+        144,
+        197,
+        190,
+        37,
+        138,
+        50
+      ],
+      "class_names": [
+        "spider web",
+        "golden retriever",
+        "lifeboat",
+        "sea cucumber",
+        "bee",
+        "scorpion",
+        "broom",
+        "volleyball",
+        "snorkel",
+        "baboon",
+        "black stork",
+        "guacamole",
+        "gasmask",
+        "Chihuahua",
+        "sandal",
+        "lakeside",
+        "meat loaf",
+        "fly",
+        "punching bag",
+        "bison"
+      ],
+      "wnids": [
+        "n04275548",
+        "n02099601",
+        "n03662601",
+        "n02321529",
+        "n02206856",
+        "n01770393",
+        "n02906734",
+        "n04540053",
+        "n04251144",
+        "n02486410",
+        "n02002724",
+        "n07583066",
+        "n03424325",
+        "n02085620",
+        "n04133789",
+        "n09332890",
+        "n07871810",
+        "n02190166",
+        "n04023962",
+        "n02410509"
+      ]
+    },
+    "50": {
+      "class_indices": [
+        152,
+        26,
+        115,
+        46,
+        38,
+        7,
+        79,
+        171,
+        148,
+        56,
+        20,
+        178,
+        106,
+        24,
+        144,
+        197,
+        190,
+        37,
+        138,
+        50,
+        121,
+        189,
+        157,
+        130,
+        187,
+        153,
+        25,
+        196,
+        147,
+        164,
+        75,
+        70,
+        104,
+        51,
+        9,
+        92,
+        150,
+        133,
+        176,
+        96,
+        188,
+        33,
+        3,
+        29,
+        173,
+        67,
+        101,
+        8,
+        54,
+        84
+      ],
+      "class_names": [
+        "spider web",
+        "golden retriever",
+        "lifeboat",
+        "sea cucumber",
+        "bee",
+        "scorpion",
+        "broom",
+        "volleyball",
+        "snorkel",
+        "baboon",
+        "black stork",
+        "guacamole",
+        "gasmask",
+        "Chihuahua",
+        "sandal",
+        "lakeside",
+        "meat loaf",
+        "fly",
+        "punching bag",
+        "bison",
+        "moving van",
+        "pomegranate",
+        "suspension bridge",
+        "pill bottle",
+        "lemon",
+        "sports car",
+        "Yorkshire terrier",
+        "coral reef",
+        "sewing machine",
+        "tractor",
+        "binoculars",
+        "beach wagon",
+        "frying pan",
+        "bighorn",
+        "tarantula",
+        "computer keyboard",
+        "sombrero",
+        "police van",
+        "comic book",
+        "dam",
+        "banana",
+        "cougar",
+        "tailed frog",
+        "standard poodle",
+        "water tower",
+        "barrel",
+        "flagpole",
+        "black widow",
+        "orangutan",
+        "cannon"
+      ],
+      "wnids": [
+        "n04275548",
+        "n02099601",
+        "n03662601",
+        "n02321529",
+        "n02206856",
+        "n01770393",
+        "n02906734",
+        "n04540053",
+        "n04251144",
+        "n02486410",
+        "n02002724",
+        "n07583066",
+        "n03424325",
+        "n02085620",
+        "n04133789",
+        "n09332890",
+        "n07871810",
+        "n02190166",
+        "n04023962",
+        "n02410509",
+        "n03796401",
+        "n07768694",
+        "n04366367",
+        "n03937543",
+        "n07749582",
+        "n04285008",
+        "n02094433",
+        "n09256479",
+        "n04179913",
+        "n04465501",
+        "n02841315",
+        "n02814533",
+        "n03400231",
+        "n02415577",
+        "n01774750",
+        "n03085013",
+        "n04259630",
+        "n03977966",
+        "n06596364",
+        "n03160309",
+        "n07753592",
+        "n02125311",
+        "n01644900",
+        "n02113799",
+        "n04562935",
+        "n02795169",
+        "n03355925",
+        "n01774384",
+        "n02480495",
+        "n02950826"
+      ]
+    }
+  }
+}
