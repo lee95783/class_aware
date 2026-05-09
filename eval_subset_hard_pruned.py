@@ -25,7 +25,7 @@ def evaluate():
         normalize,
     ])
     
-    val_set = datasets.CIFAR100(root='./data', train=False, download=False, transform=val_transform)
+    val_set = datasets.CIFAR100(root='./data', train=False, download=True, transform=val_transform)
     val_indices = get_cifar100_class_indices(val_set, target_classes)
     val_subset = Subset(val_set, val_indices)
     val_loader = DataLoader(val_subset, batch_size=64, shuffle=False, num_workers=4)
