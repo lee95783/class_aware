@@ -15,7 +15,7 @@ def evaluate():
         normalize,
     ])
     
-    val_set = datasets.CIFAR100(root='./data', train=False, download=False, transform=val_transform)
+    val_set = datasets.CIFAR100(root='./data', train=False, download=True, transform=val_transform)
     val_loader = DataLoader(val_set, batch_size=64, shuffle=False, num_workers=4)
 
     # Load Hard-Pruned Model
