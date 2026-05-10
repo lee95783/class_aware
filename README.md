@@ -27,7 +27,7 @@ Baseline models are trained on the **full dataset** and used for all subsequent 
 
 | Model         | Dataset           | Training Command                                            |
 |---------------|-------------------|--------------------------------------------------------------|
-| DeiT-Tiny     | CIFAR-100 (100 classes) | `python main.py --dataset cifar100 --epochs 30`            |
+| DeiT-Tiny     | CIFAR-100 | `python main.py --dataset cifar100 --epochs 30`            |
 | DeiT-Small    | TinyImageNet-200  | `python scripts/finetune_deit_small_tinyimagenet.py`         |
 
 > Weights are saved in the `weights/` directory by default. 
