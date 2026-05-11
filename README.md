@@ -61,8 +61,6 @@ class_aware/
 ├── examples/               				# 快速上手示例
 │   └── deploy_b1_optimized.py
 ├── scripts/               			        # 各类实验脚本（扫描、消融研究等）
-│   ├── train_e01_baselines.py
-│   ├── train_e02_mlp_sweep.py
 │   ├── eval_e03_cgts_sweep.py
 │   ├── eval_e03b_layer_selection.py
 │   ├── train_e04_combined.py
@@ -75,10 +73,6 @@ class_aware/
 │   ├── train_tinyimagenet_e07_xpruner.py
 │   └── eval_e07_zero_tprune.py
 │   └── eval_e08_backbone_sharing.py
-│   └── eval_e09_cgts_perclass.py
-│   └── eval_e10_cgts_live_cls.py
-│   └── eval_e11_cgts_cls_attn.py
-│   └── eval_e12_zero_tprune_full.py
 │   └── eval_efficiency.py
 │   └── eval_tinyimagenet_e07_zero_tprune.py
 │   └── eval_xpruner_hard_efficiency.py
@@ -86,7 +80,6 @@ class_aware/
 │   └── finetune_deit_small_tinyimagenet.py
 │   └── generate_multi_subsets.py
 │   └── prepare_tinyimagenet.py
-│   └── tome.py
 │   └── x_pruner.py
 ├── src/                    				# 核心源码
 │   ├── __init__.py
@@ -98,23 +91,6 @@ class_aware/
 │   └── attention_profile.py                     # 注意力/激活分布分析
 └── README.md
 └── requirements.txt
-└── analyze_class_specialization.py
-└── analyze_pruning_ratio.py
-└── eval_hard_pruned.py
-└── eval_subset_hard_pruned.py
 └── evaluate_base_model.py
-└── evaluate_conservative.py
-└── evaluate_mlp_pruning.py
-└── evaluate_subset.py
-└── final_benchmark.py
-└── generate_extreme_prune.py
 └── main.py
-└── test_b1_optimization.py
-└── test_mlp_gating.py
-└── test_mlp_pruning_quick.py
-└── test_token_pruning_b1.py
-└── test_token_simple.py
-└── train_joint_pruning.py
-└── train_mlp_adaptive.py
-└── train_mlp_conservative.py
 ```
