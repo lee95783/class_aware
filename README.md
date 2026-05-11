@@ -54,13 +54,11 @@ python scripts/train_e04_combined.py --num-classes 10 --epochs 5 --device 0
 
 ```
 class_aware/
-├── configs/                 				# 配置文件目录
-│   ├── class_subsets.json        			# 定义目标类别子集（CIFAR）
-│   ├── class_subsets_multi.json  		# 多任务/多子集配置
-│   └── tinyimagenet_class_subsets.json    # Tiny ImageNet 配置
-├── examples/               				# 快速上手示例
-│   └── deploy_b1_optimized.py
-├── scripts/               			        # 各类实验脚本（扫描、消融研究等）
+├── configs/                 				
+│   ├── class_subsets.json        		
+│   ├── class_subsets_multi.json  		
+│   └── tinyimagenet_class_subsets.json 
+├── scripts/               			          
 │   ├── eval_e03_cgts_sweep.py
 │   ├── eval_e03b_layer_selection.py
 │   ├── train_e04_combined.py
@@ -81,14 +79,14 @@ class_aware/
 │   └── generate_multi_subsets.py
 │   └── prepare_tinyimagenet.py
 │   └── x_pruner.py
-├── src/                    				# 核心源码
+├── src/                   
 │   ├── __init__.py
-│   ├── models.py                                    # 模型定义 (ResNet, VGG 等)
-│   ├── pruning.py                                   # 核心剪枝算法实现
-│   ├── pruning_ratio.py                          # 逐层剪枝率计算
-│   ├── dataset.py                                   # 数据加载与预处理
-│   ├── utils.py                                        # 工具函数（日志、 checkpoint 管理等）
-│   └── attention_profile.py                     # 注意力/激活分布分析
+│   ├── models.py                                   
+│   ├── pruning.py                              
+│   ├── pruning_ratio.py                      
+│   ├── dataset.py                                 
+│   ├── utils.py
+│   └── attention_profile.py                 
 └── README.md
 └── requirements.txt
 └── evaluate_base_model.py
